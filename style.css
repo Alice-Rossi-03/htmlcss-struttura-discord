@@ -78,14 +78,14 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px; 
-    gap: 20px;
+    padding: 80px; 
+    gap: 35px;
 }
 
 .flex-container2 div{
     background-color: #9fb3ec;
-    flex-basis: 33%; 
-    height: 300px;
+    flex-basis: 50%; 
+    height: 500px;
 }
 
 .flex-container2-inside{
@@ -113,4 +113,40 @@ header{
 .gray{
     background-color: #e0e0e0; 
     flex-direction: row-reverse;
+}
+
+.flex-container-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px; 
+    gap: 35px;
+    background-color: #e0e0e0;
+    flex-direction: column;
+}
+
+.flex-container-bottom div{
+    width: 100%;
+    height: 200px;
+    background-color: #9fb3ec;
+}
+
+#download{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 20px;
+}
+
+#download div{
+    width: 100%;
+    height: 50px;
+    background-color: #697db6;
+}
+
+#download #download-button{ 
+    width: 400px;
+    align-self: center;
 }
